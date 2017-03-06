@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public protocol MIBlurPopupDelegate: class {
+@objc public protocol MIBlurPopupDelegate: class {
     
     var popupView: UIView { get }
     var blurEffectStyle: UIBlurEffectStyle { get }
